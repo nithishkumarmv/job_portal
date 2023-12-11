@@ -5,6 +5,10 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
+  //const [selectedOption, setSelectedOption] = useState('option1');
+ // const handleOptionChange = (event) => {
+   // setSelectedOption(event.target.value);
+  //};
 
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
@@ -19,7 +23,12 @@ function Navbar() {
         <Link to="/jobs"> JOBS </Link>
         <Link to="/About">ABOUT</Link>
         <Link to="/login"> LOGIN </Link>
-        <Link to="/register"> REGISTER </Link>
+        <Link to="/registration"> REGISTER 
+        {/*<select value={selectedOption} onChange={handleOptionChange}>
+             <option value="option1">Student</option>
+             <option value="option2">Employee</option>
+        </select>*/}
+        </Link>
 
         <button onClick={toggleNavbar}>
         </button>

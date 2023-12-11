@@ -24,7 +24,7 @@ export const JobsList = [
     name: "Engineer technician & Wireman - Diploma & IIT",
     name1:"Teamlease Services Limited|3.9 Ratings|2442 Reviews",
     image: team,
-    loc:"Location:Chennai,Tamil Nadu, Coimbatore,Tamil Nadu",
+    loc:"Location:Chennai,Coimbatore",
     Info:"Skills:Excel,Administration",
     Experience:"Experience:0 - 5 years|Salary:1-2.5 Lacs P.A.",
   },

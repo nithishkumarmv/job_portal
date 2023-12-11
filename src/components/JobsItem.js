@@ -1,4 +1,6 @@
 import React from "react";
+//import '../styles/Jobs.css';
+import {Link} from 'react-router-dom';
 
 function JobsItem({ image, Username,Username1, Location ,Info,  Salary,Experience }) {
   return (
@@ -9,6 +11,9 @@ function JobsItem({ image, Username,Username1, Location ,Info,  Salary,Experienc
       <p>{Experience}</p>
       <p>{Info}</p>
       <p>{Location}</p>
+      <Link to="/JobApplicationForm">
+      <button id="apply-now" type="submit">Apply Now</button>
+      </Link>
 
     </div>
   );
